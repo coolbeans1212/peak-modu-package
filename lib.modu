@@ -1,0 +1,18 @@
+fn FredFinder(name, doPrint) { //if doPrint = true, will print the answer, if false will return.
+    if name == "Fred" {
+        if doPrint == true {
+            print("Your name is Fred! How cool!");
+        }
+        if doPrint == false {
+            return 1;
+        }
+    }
+    if name != "Fred" { //why does modu not have else 😭
+        if doPrint == true {
+            print("Your name is not Fred. How sad.");
+        }
+        if doPrint == false {
+            return 0;
+        }
+    }
+}
