@@ -1,17 +1,18 @@
-fn internalFredFinder(name) {
+fn FredFinder(name, doPrint) { //if doPrint = true, will print the answer, if false will return.
     if name == "Fred" {
-        return "Your name is Fred! How cool!";
+        if doPrint == true {
+            print("Your name is Fred! How cool!");
+        }
+        if doPrint == false {
+            return "Your name is Fred! How cool!";
+        }
     }
-    if name != "Fred" {
-        return "Your name is not Fred. How sad.";
-    }
-}
-
-fn FredFinder(internal, doPrint) { //if doPrint = true, will print the answer, if false will return.
-    if doPrint == true {
-        print(internalFredFinder(internal));
-    }
-    if doPrint == false {
-        internalFredFinder(internal);
+        if name != "Fred" {
+            if doPrint == true {
+                print("Your name is not Fred. How sad.");
+            }
+            if doPrint == false {
+                return "Your name is not Fred. How sad.";
+            }
     }
 }
