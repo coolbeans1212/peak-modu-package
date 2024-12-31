@@ -11,4 +11,4 @@ peak.FredFinder("example", true);
 ## faq
 q: it doesnt work!!!?!! D:<br>
 a: it works on my machine figure it out lol<br>
-a but serious: try updating your modu version, we use quite modern technology in these packages like return statements and working if statements that dont break unlike past versions of modu (modu moment)
+a but serious: try updating your modu version, we use quite modern technology in these packages like return statements and working if statements that dont break unlike past versions of modu (modu moment), also sometimes you have to run modu install twice because it might break on the first time (modu moment)
