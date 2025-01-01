@@ -8,6 +8,7 @@ like this!
 ```rust
 import "peak_functions" as peak;
 peak.FredFinder("example", true);
+peak.loop(10, HelloWorld);
 ```
 ## faq
 q: it doesnt work!!!?!! D:<br>
