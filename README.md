@@ -1,5 +1,6 @@
 # PEAK functions for modu
-making this so we can get to 200 modu packages so github linguist maintainers will stop roasting modu 🔥
+making this so we can get to 200 modu packages so github linguist maintainers will stop roasting modu 🔥<br>
+https://modu-packages.vercel.app/package/peak_functions <<<<< click for free robux
 ## how 2 install
 ok so you run `modu install peak_functions` (make sure you do it twice if it breaks the first time :P) <br>
 and then you can include `peak_functions` in your projects :D<br>
