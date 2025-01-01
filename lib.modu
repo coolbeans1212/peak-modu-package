@@ -2,7 +2,7 @@ fn FredFinder(name, doPrint) { //if doPrint = true, will print the answer, if fa
     if name == "Fred" {
         if doPrint == true {
             print("Your name is Fred! How cool!");
-        }
+        } //yeah i nest my code what are you gonna do about it
         if doPrint == false {
             return "Your name is Fred! How cool!";
         }
@@ -16,3 +16,13 @@ fn FredFinder(name, doPrint) { //if doPrint = true, will print the answer, if fa
             }
     }
 }
+fn HelloWorld() {
+    print("Hello World!");
+}
+fn loop(repeats, action) {
+    if repeats != 0 {
+        action();
+        let repeats = repeats - 1;
+        loop(repeats, action);
+    } //i was here before for loops were cool (or existed in modu at all)
+} //DOES NOT WORK WITH RETURNS

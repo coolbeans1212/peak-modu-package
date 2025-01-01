@@ -1,4 +1,4 @@
 [package]
 name = "peak_functions"
-version = "1.0.2"
+version = "1.1.2"
 description = "Functions for modu that everyone must include in every project that they make."
